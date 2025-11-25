@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATRIBUTOS</title>
+    <link rel="stylesheet" href="transicion.css">
+</head>
+<body>
+    <div class="transition">
+        <div class="transition-row row-1">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="transition-row row-2">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1>
+            Lista de atributos HTML
+        </h1>
+    </div>
+
+    <div>
+        <h5>
+            Nota: Para complementar la informacion sobre los atributos con las etiquetas donde se pueden usar estos atributos mencionados, por favor revisar el siguiente enlace: <a href="/etiquetas.html">Etiquetas HTML</a>
+        </h5>
+    </div>
+
+    <div>
+        <h3>
+            Style
+        </h3>
+        <p>
+            El atributo <code>&lt;style&gt;</code> sirve para poder colocar estilos de CSS directamente en un elemento HTML. 
+        </p>
+        <p>
+            Por ejemplo, para poder cambiar el color de un texto, se utilizaria de la siguiente manera:
+            <code>&lt;p style="color: red;"&gt;
+        </p>
+    </div>
+    
+    <div>
+        <h3>
+            Title
+        </h3>
+        <p>
+            El atributo <code>title</code> se utiliza para proporcionar información adicional sobre un elemento HTML. Este texto aparece como un tooltip cuando el usuario pasa el cursor sobre el elemento.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;abbr title="Mi Página Web"&gt;Mi Página Web&lt;/abbr&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            href
+        </h3>
+        <p>
+            El atributo <code>&lt;href&gt;</code> se utiliza en enlaces para especificar la URL a la que se dirige el enlace. Es esencial para crear hipervínculos en HTML.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;a href="https://www.ejemplo.com"&gt;Enlace a Ejemplo&lt;/a&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            target
+        </h3>
+        <p>
+            El atributo <code>&lt;target&gt;</code> se utiliza en enlaces para especificar dónde se abrirá el enlace. 
+        </p>
+        <p>
+            Este atributo puede tomar varios valores; <code>target="_blank"</code> abrirá el enlace en una nueva pestaña o ventana del navegador; <code>target="_self"</code> abrirá el enlace en la misma pestaña o ventana; <code>target="_parent"</code> abrirá el enlace en el marco padre, y <code>target="_top"</code> abrirá el enlace en toda la ventana del navegador.
+
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            Src
+        </h3>
+        <p>
+            El atributo <code>src</code> se utiliza para especificar la URL de un recurso externo, como una imagen o un script. Es comúnmente utilizado en etiquetas como <code>&lt;img&gt;</code> y <code>&lt;script&gt;</code>.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;img src="imagen.jpg"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            alt
+        </h3>
+        <p>
+            El atributo <code>alt</code> se utiliza en imágenes para proporcionar un texto alternativo que describe la imagen. Este texto es importante para la accesibilidad y se muestra si la imagen no puede cargarse. 
+        </p>
+        <p>
+            Ejemplo: <code>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            usemap
+        </h3>
+        <p>
+            El atributo <code>usemap</code> se utiliza en imágenes para asociar la imagen con un mapa de imagen definido por la etiqueta <code>&lt;map&gt;</code>. Que se utiliza para crear áreas seleccionables dentro de una imagen. Este atributo siempre debe iniciar con el símbolo de número (#) seguido del id del mapa.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;img src="imagen.jpg" usemap="#miMapa"&gt;</code>
+        </p>
+    </div>
+    
+    <div>
+        <h3>
+            name
+        </h3>
+        <p>
+            El atributo <code>name</code> se utiliza para asignar un nombre a un elemento HTML. Este nombre puede ser utilizado para identificar el elemento en scripts o estilos.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;input type="text" name="usuario"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            shape
+        </h3>
+        <p>
+            El atributo <code>shape</code> se utiliza en mapas de imagen para definir la forma de un área clickable. Puede tomar valores como <code>rect</code>, <code>circle</code> o <code>poly</code>. Se utiliza dentro de la etiqueta <code>&lt;area&gt;</code> para definir áreas específicas dentro de una imagen.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;area shape="rect" coords="34,44,270,350" href="imagen.jpg"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            coords
+        </h3>
+        <p>
+            El atributo <code>coords</code> se utiliza en mapas de imagen para definir las coordenadas de un área clickable. Dependiendo del valor del atributo <code>shape</code>, las coordenadas se especifican de diferentes maneras.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;area shape="rect" coords="34,44,270,350" href="imagen.jpg"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h4>
+            Nota con respecto a <code>coords</code> y <code>shape</code>
+        </h4>
+        <p>
+            Es importante que los valores de <code>coords</code> sean coherentes con el valor de <code>shape</code> para que el área clickable funcione correctamente.
+        </p>
+        <p>
+            El atributo <code>shape</code> define la forma del área clickable, mientras que <code>coords</code> especifica las coordenadas de esa forma dentro de la imagen. <code>shape</code> puedes tener diferentes valores como <code>rect</code> (rectángulo), <code>circle</code> (círculo) o <code>poly</code> (polígono). Las coordenadas se definen de manera diferente según el valor de <code>shape</code>.
+        </p>
+        <p>
+            <code>coords</code> para un rectángulo se define como <code>x1,y1,x2,y2</code>, donde <code>(x1,y1)</code> son las coordenadas de la esquina superior izquierda y <code>(x2,y2)</code> son las coordenadas de la esquina inferior derecha. Para un círculo, se define como <code>x,y,r</code>, donde <code>(x,y)</code> son las coordenadas del centro y <code>r</code> es el radio. Para un polígono, se define como una lista de coordenadas <code>x1,y1,x2,y2,...</code> que representan los vértices del polígono.
+        </p>
+        <h5>Mas informacion sobre este tema: <a target="_blank" href="https://w3schoolsua.github.io/html/html_images_imagemap_es.html">w3schools</a></h5>
+    </div>
+
+    <div>
+        <h3>
+            srcset
+        </h3>
+        <p>
+            El atributo <code>srcset</code> se utiliza en la etiqueta <code>&lt;source&gt;</code> para proporcionar múltiples fuentes de imagen para diferentes condiciones, como el tamaño de la pantalla o la resolución del dispositivo. Permite especificar diferentes archivos de imagen y sus condiciones de visualización, ya que el navegador selecciona automáticamente la fuente más adecuada según las condiciones actuales.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;source media="(min-width: 650px)" srcset="imagen-grande.jpg"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            media
+        </h3>
+        <p>
+            El atributo <code>media</code> se utiliza en la etiqueta <code>&lt;source&gt;</code> para especificar condiciones de visualización para la fuente de imagen. Permite definir reglas CSS que deben cumplirse para que se utilice la fuente de imagen correspondiente.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;source media="(min-width: 650px)" srcset="imagen-grande.jpg"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            Atributo type
+        </h3>
+        <p>
+            El atributo <code>type</code> se utiliza en la etiqueta <code>&lt;source&gt;</code> para especificar el tipo de contenido. Esto ayuda al navegador a determinar cómo manejar diferente tipos de datos, como textos, imagenes, archivos de audio, etc.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;input type="image/jpeg"&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            colspan y rowspan
+        </h3>
+        <p>
+            El atributo <code>colspan</code> se utiliza en las celdas de una tabla para especificar cuántas columnas debe abarcar. Mientras que <code>rowspan</code> se utiliza para especificar cuántas filas debe abarcar una celda. Estos atributos son útiles para crear tablas más complejas y organizadas.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;td colspan="2"&gt;Contenido&lt;/td&gt;</code>. En este ejemplo, la celda abarca dos columnas.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;td rowspan="2"&gt;Contenido&lt;/td&gt;</code>. En este ejemplo, la celda abarca dos filas.
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            span
+        </h3>
+        <p>
+            El atribuno <code>span</code> se utiliza en la etiqueta <code>&lt;col&gt;</code> dentro de un grupo de columnas definido por la etiqueta <code>&lt;colgroup&gt;</code>. Este atributo especifica cuántas columnas debe abarcar una columna específica dentro del grupo. Es útil para definir estilos o propiedades que se aplican a múltiples columnas en una tabla.
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            start
+        </h3>
+        <p>
+            Este atributo se utiliza en la etiqueta <code>&lt;ol&gt;</code> para especificar el número con el que debe comenzar la lista ordenada. Por defecto, las listas ordenadas comienzan en 1, pero con el atributo <code>start</code>, puedes definir un número diferente para iniciar la numeración.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;ol start="5"&gt;&lt;li&gt;Elemento 5&lt;/li&gt;&lt;li&gt;Elemento 6&lt;/li&gt;&lt;/ol&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            class
+        </h3>
+        <p>
+            El atributo <code>class</code> se utiliza en casi todas las etiquetas HTML para especificar una o más clases a las que pertenece un elemento. Las clases se utilizan principalmente para aplicar estilos CSS a grupos de elementos o para seleccionar elementos en JavaScript. Para llamarlo desde el CSS se debe usar un punto (.) seguido del nombre de la clase.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;div class="mi-clase"&gt;Contenido&lt;/div&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            id
+        </h3>
+        <p>
+            El atributo <code>id</code> se utiliza para asignar un identificador único a un elemento HTML. Este identificador puede ser utilizado para aplicar estilos CSS específicos o para manipular el elemento mediante JavaScript. Este es diferente a <code>class</code>, que puede ser compartido por múltiples elementos, ya que solo se puede asignar un único <code>id</code> a cada elemento en una página HTML. Para llamarlo desde el CSS se debe usar el símbolo de número (#) seguido del id del elemento.
+        </p>
+        <p>
+            Ejemplo: <code>&lt;div id="mi-id"&gt;Contenido&lt;/div&gt;</code>
+        </p>
+    </div>
+
+    <div>
+        <h3>
+            
+        </h3>
+    </div>
+    <div>
+        <a href="real.html">volver</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="transicion.js"></script>
+</body>
+</html>

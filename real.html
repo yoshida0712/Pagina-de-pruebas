@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="transicion.css">
+
+</head>
+<body class="body">
+    
+    <div class="transition">
+        <div class="transition-row row-1">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="transition-row row-2">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+    <section class="container">
+        <h1>Estudios</h1>
+        <div class="tab"> <!--HTML-->
+            <input type="radio" name="abrir" id="acc1">
+            <label for="acc1">
+                <h2>01</h2>
+                <h3>HTML</h3>
+            </label>
+            <div class="content">
+                <p>Html esta divido en etiquetas y atributos, para saber mas de ellos por favor selecciona alguno de los siguientes links:</p>
+                <p><a href="etiquetas.html">ETIQUETAS</a></p>
+                <p><a href="atributos.html">ATRIBUTOS</a></p>
+            </div>
+        </div>
+
+        <div class="tab"> <!--CSS-->
+            <input type="radio" name="abrir" id="acc2"/>
+            <label for="acc2">
+                <h2>02</h2>
+                <h3>CSS</h3>
+            </label>
+            <div class="content">
+                <p>
+                    El css se utiliza para dar estilo a los documentos HTML. Permite modificar la apariencia de los elementos, como colores, fuentes y layout. Para saber más sobre CSS, por favor selecciona alguno de los siguientes links:
+                </p>
+            </div>
+        </div>
+
+        <div class="tab"> <!--JS-->
+            <input type="radio" name="abrir" id="acc3"/>
+            <label for="acc3">
+                <h2>03</h2>
+                <h3>Js</h3>
+            </label>
+            <div class="content">
+                <p>
+                    El js se utiliza para dar interactividad a los documentos HTML. Permite modificar el contenido y la estructura de la página de forma dinámica. Para saber más sobre JS, por favor selecciona alguno de los siguientes links:
+                </p>
+            </div>
+        </div>
+
+        <div class="tab"> <!--React-->
+            <input type="radio" name="abrir" id="acc4"/>
+            <label for="acc4">
+                <h2>04</h2>
+                <h3>React</h3>
+            </label>
+            <div class="content">
+                <p>
+                    React es una biblioteca de JavaScript para construir interfaces de usuario. Permite crear componentes reutilizables y gestionar el estado de la aplicación de forma eficiente. Para saber más sobre React, por favor selecciona alguno de los siguientes links:
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--
+    <div>
+        <a href="Pagina.html">volver</a>
+    </div>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="transicion.js"></script>
+</body>
+</html>
